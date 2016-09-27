@@ -1,8 +1,8 @@
 title: Your awesome title
 email: joseph.r.stansfield@gmail.com
 description: some stuff
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jstans12.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://jstans12.github.io"
 github_username:  JStans12
 
 # build settings
