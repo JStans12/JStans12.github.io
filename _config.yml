@@ -8,3 +8,7 @@ github_username:  jstans12
 # build settings
 markdown: kramdown
 theme: minima
+
+# gems
+gems:
+  - jekyll-gist
