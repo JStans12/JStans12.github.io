@@ -135,7 +135,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-gist
-  minima
 
 RUBY VERSION
    ruby 2.3.0p0
