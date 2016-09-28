@@ -5,6 +5,9 @@ baseurl: ""
 url: "http://jstans12.github.io"
 github_username:  jstans12
 
+markdown: kramdown
+theme: minima
+
 # gems
 gems:
   - jekyll-gist
