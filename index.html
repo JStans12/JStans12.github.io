@@ -1,19 +1,19 @@
 ---
-layout: homepage
+layout: default
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Blog</h1>
+  <div class="wrapper">
 
-  <table class="post-list">
-    {% for post in site.posts %}
-      <tr>
-        <td><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <td> - </td>
-        <td><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-      </tr>
-    {% endfor %}
-  </table>
+    <div class="home-wrapper">
+      <p class="about"> Hi, I'm Joey, a software developer in Denver, Colorado. I'm into progamming, spicy food, rock climbing and super nintendo. Currently, I'm working throught the Back-End Engineering prrogram at Turing School.</p>
+    </div>
+
+    <div class="home-wrapper">
+      <img src="/coverphoto.jpg" alt="Mountain View" class="cover-photo">
+    </div>
+
+  </div>
 
 </div>
