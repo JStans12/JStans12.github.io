@@ -4,6 +4,7 @@ description: ""
 baseurl: ""
 url: "http://jstans12.github.io"
 github_username:  jstans12
+linkedin_username: joseph-stansfield-a546b973
 
 markdown: kramdown
 theme: minima
