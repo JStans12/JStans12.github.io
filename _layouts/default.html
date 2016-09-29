@@ -32,27 +32,29 @@
       <div class="wrapper">
         <table>
 
-          <td><a href="mailto:joseph.r.stansfield@gmail.com"> {{ site.email }}</a></td>
+          <!-- <td><a href="mailto:joseph.r.stansfield@gmail.com"> {{ site.email }}</a></td> -->
+
+          <td>
+            <a href="mailto:joseph.r.stansfield@gmail.com">
+              <i class="fa fa-envelope"></i> Email
+            </a>
+          </td>
 
           <td class="spacer">
 
-          {% if site.github_username %}
             <td>
               <a href="https://github.com/{{ site.github_username }}">
-                <i class="fa fa-github"></i> GitHub
+                <i class="fa fa-github-alt"></i> GitHub
               </a>
             </td>
-          {% endif %}
 
           <td class="spacer">
 
-          {% if site.linkedin_username %}
             <td>
               <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
                 <i class="fa fa-linkedin"></i> LinkedIn
               </a>
             </td>
-          {% endif %}
 
         </table>
       </div>
