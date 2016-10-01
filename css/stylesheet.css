@@ -88,3 +88,6 @@ a:hover { color: var(--linksHover); text-decoration: underline; }
 
 .post-title { font-family: Nord; color: var(--title); font-size: 42px; letter-spacing: -1px; line-height: 1; }
 @media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
+
+/** Gist */
+div[itemprop="articleBody"] h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, p { font-family: courier; }
