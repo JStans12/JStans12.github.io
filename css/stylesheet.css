@@ -13,6 +13,16 @@ font-family: Nord;
 src: url("/css/fonts/Nord Regular.otf") format("opentype");
 }
 
+@font-face {
+font-family: NordMedium;
+src: url("/css/fonts/Nord Medium.otf") format("opentype");
+}
+
+@font-face {
+font-family: NordLight;
+src: url("/css/fonts/Nord Light.otf") format("opentype");
+}
+
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -55,7 +65,7 @@ a:hover { color: var(--linksHover); text-decoration: underline; }
 
 /** Site header */
 .site-header { border-top: 3px solid var(--top); border-bottom: 1px solid var(--hfBars); min-height: 60px; position: relative; }
-.site-title { font-family: Nord; font-size: 42px; font-weight: 200; line-height: 56px; letter-spacing: -1px; margin-top: 10px; margin-bottom: 10px; float: left; }
+.site-title { font-family: NordMedium; font-size: 42px; font-weight: 200; line-height: 56px; letter-spacing: -1px; margin-top: 10px; margin-bottom: 10px; float: left; }
 .site-title, .site-title:visited { color: var(--title); }
 .nav { float: right; padding-right: 30px; padding-top: 10px; }
 .nav-link { padding-left: 20px; }
