@@ -77,7 +77,20 @@ body {
   top: 32%;
 }
 
+a {
+  color: black;
+}
+
 .fa {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.hover-indicator {
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 46%;
 }
