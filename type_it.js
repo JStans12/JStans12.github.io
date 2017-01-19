@@ -1,21 +1,16 @@
-var snip = "";
-
 function type(name){
-
-  l = name.shift();
+  letter = name.slice(0,1);
 
   setTimeout(function(){
-    snip += l
-    $('#name').html('');
-    $('#name').html(snip);
+    $('#name').append(letter);
 
     if(name.length > 0){
-      type(name);
+      type(name.slice(1));
     }
 
   },100);
 }
 
 $(document).ready(function(){
-  type("Joey Stansfield".split(""));
+  type("Joey Stansfield");
 });
