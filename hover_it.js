@@ -1,19 +1,7 @@
 $(document).ready(function(){
 
-  $('#turing-portfolio').hover(function(){
-    $('.hover-indicator').html("Turing School Portfolio");
-  }, function(){
-    $('.hover-indicator').html("");
-  });
-
   $('#github-profile').hover(function(){
     $('.hover-indicator').html("Github");
-  }, function(){
-    $('.hover-indicator').html("");
-  });
-
-  $('#angellist-profile').hover(function(){
-    $('.hover-indicator').html("Angel List");
   }, function(){
     $('.hover-indicator').html("");
   });
